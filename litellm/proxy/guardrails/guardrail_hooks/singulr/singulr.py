@@ -42,7 +42,7 @@ from litellm.types.utils import (
 )
 
 _DEFAULT_API_BASE: Final = "http://localhost:8003"
-_GUARD_ENDPOINT: Final = "/api/v1/ai-gateway/litellm"
+_GUARD_ENDPOINT: Final = "/api/v1/ai-gateway/litellm-v2"
 _DEFAULT_TIMEOUT: Final = 30.0
 _EMPTY_MAPPING: Final[Mapping[str, Any]] = MappingProxyType({})
 
